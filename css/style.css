@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+/*====Default CSS====*/
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	color: #f8f8f8;
+	box-sizing: border-box;
+}
+
+/*====Body CSS====*/
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+	padding: 10px;
+	text-align: center;
+	color: #f8f8f8;
+}
+
+.wrapper {
+    width: 95%;
+    margin: auto;
+
+}
+/*===Header CSS Start===*/
+.headerSection {
+	background-color: #511845;
+	width: 100%;
+    overflow: hidden;
+    border-bottom: 3px solid green;
+}
+
+.logo {
+	width: 25%;
+    float: left;
+    padding-left: 20px;
+}
+.logo img{
+    width: 60px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.heading {
+    width: 75%;
+    height: 59px;
+    float: right;
+}
+.full-menu{
+    height: 59px;
+}
+.menu{
+	margin-top: 0px;
+	padding-bottom: 6px;
+}
+#menu-bar{
+    margin-left: 185px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding: 0;
+    list-style-type: none;
+    width: 650px;
+    min-height: 33px;
+	
+}
+#menu-bar li{
+    width: 150px;
+    padding: 14px;
+	min-height: 36px;
+	float: left; 
+    position: relative;
+    z-index: 9999;
+}
+#menu-bar li a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin: 2px;
+	padding: 3px;
+    font-size: 18px;
+    display: block;
+     
+}
+#menu-bar li a:hover{
+	color:green;
+	background-color:  #321f28;
+	transition: all 2s;
+	border-top: 3px solid black;
+    border-bottom: 5px solid green;  
+}
+#menu-bar li.active-home a{
+	border-bottom:3px solid red;
+}
+
+/*===Header CSS End===*/
+
+/*===Hero Section CSS Start===*/
+.wrapper h1{
+    font-size: 36px;
+    color: #321f28;
+    padding: 25px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heroSection {
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 52px 0px;
+    border-bottom: 5px solid green;
+	font-family: serif;
+}
+
+.heroSection input,
+.heroSection button {
+	border-radius: 5px;
+}
+.search{
+	padding-left: 300px;
+}
+.search input {
+	background-color: #8db596;
+	padding: 15px 400px 15px 0px;
+	color: black;
+	display: inline-block;
+
+}
+
+button {
+	padding: 15px;
+	background-color:#511845;
+	transition: all .5s ease;
+	display: inline-block;
+}
+
+button:hover {
+	background-color: #321f28;
+	border-radius: 10px;
+	transition: all .5s ease;
+}
+.heading-description{
+    margin: 0px 300px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #27181f;
+    text-align: center;
+    padding: 25px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*===Hero Section CSS Start===*/
+
+/*===Blogs CSS Start===*/
+.blog {
+	width: 33.33%;
+	float: left;
+	padding: 5px;
+}
+
+.caption {
+    width: 100%;
+    color: antiquewhite;
+	padding: 10px;
+	text-align: center;
+	background:black;
+}
+
+.content {
+	height: 250px;
+	background:whitesmoke;
+}
+
+/*===blogTwo CSS===*/
+.blogSectionTwo .blog {
+	width: 50%;
+	float: left;
+}
+
+/*===blogThree CSS===*/
+.blogSectionThree .blog:nth-child(1) {
+	width: 70%;
+	float: left;
+}
+
+.blogSectionThree .blog:nth-child(2) {
+	width: 30%;
+	float: left;
+}
+/*===blogFour CSS===*/
+.blogSectionFour .blog {
+	width: 25%;
+	float: left;
+}
+
+/*===Blogs CSS End===*/
+
+/*===Footer CSS Start===*/
+.footerSection {
+    background-color: #511845;
+	padding: 20px;
+	clear: both;
+}
+.footerSection h1{
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    font-family: arial;
+    letter-spacing: 4px;
+    color: #4d843c;
+    text-shadow: 1px 1px 0px #827c90, -2px -2px 3px #58184b;
+}
+
+/*===Footer CSS End===*/
